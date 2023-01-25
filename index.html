@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Design</title>
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- css file link-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="#home" class="logo">
+                <img src="images/logo.png" alt="">
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars" id="menu-btn"></div>
+
+        </section>
+    </header>
+
+    <!-- home section -->
+    <div class="home-bg">
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Coffee Land</h3>
+                <p>The best Coffee for the best customers, with best prices and amazing taste! Don't
+                    hesitate to try the new Brazilian Cafe, only for 5$.
+                </p>
+                <a href="#about" class="btn">about us</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <div class="image">
+            <img src="images/about-img.svg" alt="">
+        </div>
+        <div class="content">
+            <h3>A cup of Coffee is the best to normalize your mood!</h3>
+            <p>Coffee Land is a Coffee shop built by Mr.Pierre Younes since 1967 in Al Hamra Beirut.
+                Since that time We make sure to bring the best coffee quality which suits our
+                dear customers to have the best experience with our services!
+            </p>
+            <a href="#menu" class="btn">our menu</a>
+        </div>
+    </section>
+
+
+    <!-- facility section -->
+
+    <section class="facility">
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>our facility</h3>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/icon-1.png" alt="">
+                <h3>varieties of coffee</h3>
+                <p>You can adjust every thing in your cup, the sweetness or bitterness,
+                    it's all about how you like you coffee to be!
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-2.png" alt="">
+                <h3>Coffee beans</h3>
+                <p>Which type of coffee you prefer? we serve the best coffee qualities
+                    you can also combine different types together!
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-3.png" alt="">
+                <h3>Croissants</h3>
+                <p>Our french chef does the best croissants, you can take your coffee, a croissant
+                    and enjoy your morning!
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/icon-4.png" alt="">
+                <h3>Takeaway Coffee</h3>
+                <p>Late on work? not anymore, takeaway coffee is for you to begin the day, in 3 minutes
+                    your coffee will be ready!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section -->
+    <section class="menu" id="menu">
+
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>Our Menu</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu-1.png" alt="">
+                <h3>Romantic Cuppucino</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" alt="">
+                <h3>Original Cappuccino</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" alt="">
+                <h3>Mocha coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" alt="">
+                <h3>Columbian Coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" alt="">
+                <h3>Brazilian coffee</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-6.png" alt="">
+                <h3>Frappuccino</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <img src="images/heading-img.png" alt="">
+            <h3>Contact Us</h3>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+            <form action="" method="post">
+                <h3>Book a table</h3>
+                <input type="text" name="name" required class="box" maxlength="20" placeholder="your name">
+
+                <input type="number" name="number" required class="box" maxlength="20" placeholder="phone number" min="0"
+                max="9999999999" onkeypress="if(this.value.
+                length == 10) return false">
+
+                <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="1"
+                max="99" onkeypress="if(this.value.
+                length == 2) return false">
+
+                <input type="submit" name="send" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- footer section-->
+
+    <section class="footer">
+
+        <div class="box-container">
+     
+           <div class="box">
+              <i class="fas fa-envelope"></i>
+              <h3>our email</h3>
+              <p>coffeeShopAlhamra@gmail.com</p>
+              <p>CafeLandBeirut@gmail.com</p>
+           </div>
+     
+           <div class="box">
+              <i class="fas fa-clock"></i>
+              <h3>opening hours</h3>
+              <p>07:00am to 09:00pm</p>
+           </div>
+     
+           <div class="box">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>shop location</h3>
+              <p>Beirut, Al Hamra - Rue 102</p>
+           </div>
+     
+           <div class="box">
+              <i class="fas fa-phone"></i>
+              <h3>our number</h3>
+              <p>+961 1 760 830</p>
+              <p>+961 0 000 000</p>
+           </div>
+     
+        </div>
+     
+        <div class="credit"> &copy; copyright @ 2022 by <span>Zainab Sbeity</span> | all rights reserved! </div>
+     
+     </section>
+     
+
+    <!-- script file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
