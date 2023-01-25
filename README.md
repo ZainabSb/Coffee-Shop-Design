@@ -1,3 +1,3 @@
 # Coffee-Shop-Design
 
-This project is a Design Coffee shop website!
+This project is a Coffee shop Design website!
